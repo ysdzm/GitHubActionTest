@@ -1,2 +1,2 @@
 # GitHubActionTest
-GitHubActionのTestをします
+GitHubActionのTestをします。
