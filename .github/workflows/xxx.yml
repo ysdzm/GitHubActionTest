@@ -9,6 +9,12 @@ jobs:
   deploy:
     runs-on: self-hosted
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-      - name: Setup Python
+    - uses: actions/checkout@v1
+    - name: label change test1
+      run: | 
+        pwd
+        ls
+    - name: label change test2
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
