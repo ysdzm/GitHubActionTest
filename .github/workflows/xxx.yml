@@ -14,6 +14,7 @@ jobs:
       run: | 
         pwd
         ls
+        mkdir testt.md
     - name: label change test2
       run: |
         echo Add other actions to build,
